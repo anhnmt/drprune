@@ -1,8 +1,9 @@
 package log
 
 import (
-	"github.com/ci-monk/drprune/internal/consts"
 	"github.com/sirupsen/logrus"
+
+	"github.com/anhnmt/drprune/internal/consts"
 )
 
 // Configure the logrus format to use "text" formatter

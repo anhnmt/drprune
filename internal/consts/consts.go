@@ -8,7 +8,7 @@ const (
 	DefaultTimestampFormat = "2006-01-02_15:04:05"
 
 	// ProjectURL is the project url of the app
-	ProjectURL = "https://github.com/ci-monk/drprune"
+	ProjectURL = "https://github.com/anhnmt/drprune"
 
 	// ReleaseURL default release URL
 	ReleaseURL = "https://api.github.com/repos/ci-monk/drprune/releases"

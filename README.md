@@ -32,7 +32,7 @@
 If you want contribute on this project, first you need to make a **git clone**:
 
 ```bash
-git clone --depth 1 https://github.com/ci-monk/drprune.git -b main
+git clone --depth 1 https://github.com/anhnmt/drprune.git -b main
 ```
 
 This will give you access to the code on your **local machine**.

@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ci-monk/drprune/internal/log"
 	"github.com/google/go-github/v50/github"
+
+	"github.com/anhnmt/drprune/internal/log"
 )
 
 // Get all packages of user

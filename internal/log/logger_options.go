@@ -7,8 +7,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ci-monk/drprune/internal/utils"
 	"github.com/sirupsen/logrus"
+
+	"github.com/anhnmt/drprune/internal/utils"
 )
 
 type options struct {

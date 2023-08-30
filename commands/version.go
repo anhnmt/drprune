@@ -1,8 +1,9 @@
 package commands
 
 import (
-	"github.com/ci-monk/drprune/internal/version"
 	"github.com/spf13/cobra"
+
+	"github.com/anhnmt/drprune/internal/version"
 )
 
 var short, full bool

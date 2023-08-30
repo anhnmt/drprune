@@ -8,8 +8,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ci-monk/drprune/internal/consts"
 	"github.com/sirupsen/logrus"
+
+	"github.com/anhnmt/drprune/internal/consts"
 )
 
 // IsEmpty function - check if a string is empty.

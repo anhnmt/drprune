@@ -1,13 +1,14 @@
 package commands
 
 import (
-	githubCmd "github.com/ci-monk/drprune/commands/github"
-	gitlabCmd "github.com/ci-monk/drprune/commands/gitlab"
-	"github.com/ci-monk/drprune/internal/consts"
-	"github.com/ci-monk/drprune/internal/debug"
-	"github.com/ci-monk/drprune/internal/log"
-	"github.com/ci-monk/drprune/internal/utils"
 	"github.com/spf13/cobra"
+
+	githubCmd "github.com/anhnmt/drprune/commands/github"
+	gitlabCmd "github.com/anhnmt/drprune/commands/gitlab"
+	"github.com/anhnmt/drprune/internal/consts"
+	"github.com/anhnmt/drprune/internal/debug"
+	"github.com/anhnmt/drprune/internal/log"
+	"github.com/anhnmt/drprune/internal/utils"
 )
 
 var config = log.Config{}

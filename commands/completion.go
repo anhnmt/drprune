@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ci-monk/drprune/internal/consts"
 	"github.com/spf13/cobra"
+
+	"github.com/anhnmt/drprune/internal/consts"
 )
 
 // excludeDesc description will not be added if true.

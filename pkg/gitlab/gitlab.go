@@ -5,8 +5,9 @@ import (
 	"net/url"
 	"path"
 
-	log "github.com/ci-monk/drprune/internal/log"
 	"github.com/xanzy/go-gitlab"
+
+	"github.com/anhnmt/drprune/internal/log"
 )
 
 // GitLabClient representa um cliente para o GitLab.

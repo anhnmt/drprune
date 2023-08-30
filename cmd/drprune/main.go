@@ -1,6 +1,6 @@
 package main
 
-import cmd "github.com/ci-monk/drprune/commands"
+import cmd "github.com/anhnmt/drprune/commands"
 
 func main() {
 	cmd.Execute()

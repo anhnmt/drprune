@@ -52,13 +52,13 @@ BUILD_FLAG	:= -race
 GOBUILD    	:= CGO_ENABLED=1 GOOS=$(GOOS) GOARCH=$(GOARCH) $(GO) build $(BUILD_FLAG)
 
 LDFLAGS	:= -w -s
-LDFLAGS += -X "github.com/ci-monk/drprune/internal/version.cliVersion=$(CLIENT_VERSION)"
-LDFLAGS += -X "github.com/ci-monk/drprune/internal/version.builtDate=$(BUILD_DATE)"
-LDFLAGS += -X "github.com/ci-monk/drprune/internal/version.builtBy=makefile"
-LDFLAGS += -X "github.com/ci-monk/drprune/internal/version.commit=$(GIT_COMMIT)"
-LDFLAGS += -X "github.com/ci-monk/drprune/internal/version.commitShort=$(GIT_SHORT_COMMIT)"
-LDFLAGS += -X "github.com/ci-monk/drprune/internal/version.commitBranch=$(GIT_BRANCH)"
-LDFLAGS += -X "github.com/ci-monk/drprune/internal/version.goVersion=$(GO_VERSION)"
+LDFLAGS += -X "github.com/anhnmt/drprune/internal/version.cliVersion=$(CLIENT_VERSION)"
+LDFLAGS += -X "github.com/anhnmt/drprune/internal/version.builtDate=$(BUILD_DATE)"
+LDFLAGS += -X "github.com/anhnmt/drprune/internal/version.builtBy=makefile"
+LDFLAGS += -X "github.com/anhnmt/drprune/internal/version.commit=$(GIT_COMMIT)"
+LDFLAGS += -X "github.com/anhnmt/drprune/internal/version.commitShort=$(GIT_SHORT_COMMIT)"
+LDFLAGS += -X "github.com/anhnmt/drprune/internal/version.commitBranch=$(GIT_BRANCH)"
+LDFLAGS += -X "github.com/anhnmt/drprune/internal/version.goVersion=$(GO_VERSION)"
 
 ##################################################
 # HELPER

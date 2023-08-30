@@ -3,9 +3,10 @@ package version
 import (
 	"os"
 
-	"github.com/ci-monk/drprune/internal/consts"
 	"github.com/jedib0t/go-pretty/table"
 	"github.com/pterm/pterm"
+
+	"github.com/anhnmt/drprune/internal/consts"
 )
 
 // Default build-time variable. These variables are populated via the Go ldflags. This will be filled in by the compiler.

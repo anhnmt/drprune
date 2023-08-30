@@ -3,8 +3,9 @@ package gitlab
 import (
 	"fmt"
 
-	"github.com/ci-monk/drprune/internal/consts"
 	"github.com/spf13/cobra"
+
+	"github.com/anhnmt/drprune/internal/consts"
 )
 
 var dryRun, untagged bool

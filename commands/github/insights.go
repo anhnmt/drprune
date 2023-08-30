@@ -7,13 +7,14 @@ import (
 	"os"
 
 	tm "github.com/buger/goterm"
-	"github.com/ci-monk/drprune/internal/consts"
-	"github.com/ci-monk/drprune/internal/log"
-	"github.com/ci-monk/drprune/internal/utils"
-	gh "github.com/ci-monk/drprune/pkg/github"
 	"github.com/jedib0t/go-pretty/table"
 	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"
+
+	"github.com/anhnmt/drprune/internal/consts"
+	"github.com/anhnmt/drprune/internal/log"
+	"github.com/anhnmt/drprune/internal/utils"
+	gh "github.com/anhnmt/drprune/pkg/github"
 )
 
 var interactive bool

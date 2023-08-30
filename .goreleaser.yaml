@@ -25,13 +25,13 @@ builds:
       - -trimpath
     ldflags:
       - -s -w
-      - -X "github.com/ci-monk/drprune/internal/version.builtDate={{.CommitDate}}"
-      - -X "github.com/ci-monk/drprune/internal/version.builtBy=goreleaser"
-      - -X "github.com/ci-monk/drprune/internal/version.cliVersion={{.Env.CLIENT_VERSION}}"
-      - -X "github.com/ci-monk/drprune/internal/version.commit={{.Commit}}"
-      - -X "github.com/ci-monk/drprune/internal/version.commitShort={{.ShortCommit}}"
-      - -X "github.com/ci-monk/drprune/internal/version.commitBranch={{.Env.GIT_BRANCH}}"
-      - -X "github.com/ci-monk/drprune/internal/version.goVersion={{.Env.GO_VERSION}}"
+      - -X "github.com/anhnmt/drprune/internal/version.builtDate={{.CommitDate}}"
+      - -X "github.com/anhnmt/drprune/internal/version.builtBy=goreleaser"
+      - -X "github.com/anhnmt/drprune/internal/version.cliVersion={{.Env.CLIENT_VERSION}}"
+      - -X "github.com/anhnmt/drprune/internal/version.commit={{.Commit}}"
+      - -X "github.com/anhnmt/drprune/internal/version.commitShort={{.ShortCommit}}"
+      - -X "github.com/anhnmt/drprune/internal/version.commitBranch={{.Env.GIT_BRANCH}}"
+      - -X "github.com/anhnmt/drprune/internal/version.goVersion={{.Env.GO_VERSION}}"
 archives:
   - name_template: "{{.ProjectName}}_v{{.Version}}_{{.Os}}-{{.Arch}}"
     replacements:
@@ -63,7 +63,7 @@ brews:
       name: ci-monk
       email: ci-monk@protonmail.com
     commit_msg_template: "feat: brew formula update for {{ .ProjectName }} version {{ .Tag }}"
-    homepage: "https://github.com/ci-monk/drprune"
+    homepage: "https://github.com/anhnmt/drprune"
     description: "Prune old images on GitHub (ghcr.io) and GitLab (registry.gitlab.com) container registry"
     license: "MIT"
     install: |

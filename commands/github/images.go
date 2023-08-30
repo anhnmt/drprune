@@ -5,11 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ci-monk/drprune/internal/consts"
-	log "github.com/ci-monk/drprune/internal/log"
-	"github.com/ci-monk/drprune/internal/utils"
-	gh "github.com/ci-monk/drprune/pkg/github"
 	"github.com/spf13/cobra"
+
+	"github.com/anhnmt/drprune/internal/consts"
+	"github.com/anhnmt/drprune/internal/log"
+	"github.com/anhnmt/drprune/internal/utils"
+	gh "github.com/anhnmt/drprune/pkg/github"
 )
 
 const Day = 24

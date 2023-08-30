@@ -3,8 +3,9 @@ package gitlab
 import (
 	"os"
 
-	log "github.com/ci-monk/drprune/internal/log"
 	"github.com/spf13/cobra"
+
+	"github.com/anhnmt/drprune/internal/log"
 )
 
 var token, ns, url string

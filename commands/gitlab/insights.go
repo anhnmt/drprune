@@ -3,11 +3,12 @@ package gitlab
 import (
 	"fmt"
 
-	"github.com/ci-monk/drprune/internal/consts"
-	log "github.com/ci-monk/drprune/internal/log"
-	gl "github.com/ci-monk/drprune/pkg/gitlab"
 	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"
+
+	"github.com/anhnmt/drprune/internal/consts"
+	"github.com/anhnmt/drprune/internal/log"
+	gl "github.com/anhnmt/drprune/pkg/gitlab"
 )
 
 // NewCmdInsights cria um novo comando Cobra para executar os insights do GitLab.
